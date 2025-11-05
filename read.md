@@ -1,0 +1,1 @@
+this fuly intreacted and AI intgreatd reantal and selling websited degined for ethiopian loacal market 
