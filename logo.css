@@ -1,0 +1,113 @@
+
+    body {
+      margin: 0;
+      height: 100vh;
+      background: 
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+        url("image/logo.png")
+        no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .login-form {
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+      border-radius: 20px;
+      padding: 40px 35px;
+      width: 500px;
+      color: #ffffff;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      box-sizing: border-box;
+      transparent: true;
+    }
+
+    .login-form h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+
+    .input-group {
+      margin-bottom: 25px;
+      position: relative;
+    }
+
+    .input-group input {
+      width: 100%;
+      padding: 12px 35px 12px 12px;
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+      background: transparent;
+      color: #fff;
+      font-size: 16px;
+      outline: none;
+      box-sizing: border-box;
+      display: block;
+    }
+
+    .input-group input::placeholder {
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .input-group .icon {
+      position: absolute;
+      right: 8px;
+      top: 50%;
+      transform: translateY(-50%);
+      opacity: 0.6;
+      pointer-events: none;
+    }
+
+    .checkbox-group {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.8);
+      margin-bottom: 25px;
+    }
+
+    .checkbox-group input[type="checkbox"] {
+      margin-right: 8px;
+    }
+
+    .checkbox-group a {
+      color: #f1f1f1;
+      font-style: italic;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .checkbox-group a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      font-weight: 600;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-sizing: border-box;
+    }
+
+    button:hover {
+      background: rgba(255, 255, 255, 0.4);
+      color: #222;
+    }
+
+    /* Make sure nothing overflows */
+    * {
+      box-sizing: border-box;
+    }
