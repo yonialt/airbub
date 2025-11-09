@@ -6,6 +6,8 @@
 body{
 
     font-family: Arial, sans-serif;
+    height: 2000px;
+     
   
 }
 ul{
@@ -16,17 +18,15 @@ a{
     color: black;
 }
 header{
-   height: 90px;
+   
     position: fixed;
     width: 100%;
-    
-    position: fixed;
     top: 0;
     z-index: 20;
 }
 
 .continer{
-    padding: 10px 50px;
+  
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,17 +39,26 @@ header{
       box-sizing: border-box;
       transparent: true;
       transition: all 0.3 ease;
+    padding: 1rem 3rem;
+    margin: 0rem 0rem;
    
 }
 .continer.small{
-    padding: 5px 20px;  
+    padding: 0.1rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    .continer-midle{
+        padding: 1px 10px;  
+    }
+    img{
+        width: 120px;
+    }
+    
+   
 }
 img{
-    width: 150px;
+        width: 150px;
+    }
 
-    
-}
 .mob-gojo{
     display: none;
 }
@@ -59,12 +68,15 @@ img{
     justify-content: space-between;
     gap: 20px;
     border: 1px solid rgb(0, 0, 0);
-    padding: 8px 20px;
+    padding: 8px 18px;
     border-radius: 30px;
-    box-shadow: 0px 0px 53px -21px rgba(51, 51, 51, 0.75)  ;
+    box-shadow: 0px 0px 53px -21px rgba(58, 57, 57, 0.945)  ;
     cursor: pointer;
-   
+   transition: all 0.3s ease;
 }
+    .continer-midle p:hover{
+        color: #000;
+    }
 .continer-midle div{
     font-size: 14px;
     font-weight: 600;
@@ -89,6 +101,7 @@ img{
     height: 40px;
     margin: 0px 100px;
 }
+/*
 .filter{
     display: flex;
     gap: 9px;
@@ -105,7 +118,7 @@ img{
     font-size: 14px;
     font-weight: 600;
     margin-right: 10px;
-}
+}*/
 .side-nav{
     display: flex;
     align-items: center;
@@ -290,6 +303,50 @@ span{
     width: 100%;
     background-color: #e0e0e0;
     margin: 10px auto;
+}
+.continer-des{
+    margin:10rem 0rem;
+    width: 100%;
+    padding: 0rem 5rem;
+
+}
+.dest-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+}
+.destinations{
+    margin-bottom: 30px;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  width: 250px;
+  flex: 0 0 auto; /* keeps card width fixed */
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+.card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-text {
+  padding: 15px;
+  font-size: 14px;
+    font-weight: 600;
+}
+
+.dest-cards{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 10px;
 }
 
 
