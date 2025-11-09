@@ -4,7 +4,7 @@
       height: 100vh;
       background: 
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url("image/logo.png")
+        url("image/logoin.png")
         no-repeat center center fixed;
       background-size: cover;
       display: flex;

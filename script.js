@@ -2,7 +2,7 @@
 window.addEventListener('scroll', () => {
   const navbar = document.querySelector('.continer');
   if (navbar) {
-    if (window.scrollY > 50) {
+    if (window.scrollY > 20) {
       navbar.classList.add('small');
     } else {
       navbar.classList.remove('small');
